@@ -10,17 +10,45 @@
   --bg-secondary: #fff;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto";
-  list-style: none;
-  text-decoration: none;
 }
 
-.postBtn {
-  background-color: var(--primary-color);
-  color: #333;
-  margin-left: 20px;
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/1.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+.box2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  display: table;
+}
+.box3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/5.jpg");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: table-cell;
+  vertical-align: middle;
 }
