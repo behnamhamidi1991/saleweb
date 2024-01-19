@@ -1,0 +1,6 @@
+.homepage {
+  background: url("/5.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
