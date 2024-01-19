@@ -16,6 +16,7 @@ export const featuredAds = [
     title: "Luxury Car For Sale",
     location: "Don St. Brooklyn, New York",
     imgUrl: bmw,
+    reviews: 18,
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ export const featuredAds = [
     title: "Spacious House",
     location: "Don St. Brooklyn, New York",
     imgUrl: house,
+    reviews: 35,
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const featuredAds = [
     title: "iPhone 14 Promax",
     location: "Don St. Brooklyn, New York",
     imgUrl: iphone,
+    reviews: 12,
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ export const featuredAds = [
     title: "Standing Lamp",
     location: "Don St. Brooklyn, New York",
     imgUrl: lamp,
+    reviews: 44,
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ export const featuredAds = [
     title: "Acer Office Laptop",
     location: "Don St. Brooklyn, New York",
     imgUrl: laptop,
+    reviews: 18,
   },
   {
     id: 6,
@@ -51,6 +56,7 @@ export const featuredAds = [
     title: "Cold Moisture",
     location: "Don St. Brooklyn, New York",
     imgUrl: moisture,
+    reviews: 71,
   },
   {
     id: 7,
@@ -58,6 +64,7 @@ export const featuredAds = [
     title: "Comfortable Sofa",
     location: "Don St. Brooklyn, New York",
     imgUrl: sofa,
+    reviews: 89,
   },
   {
     id: 8,
@@ -65,6 +72,7 @@ export const featuredAds = [
     title: "Smart Tablet",
     location: "Don St. Brooklyn, New York",
     imgUrl: tablet,
+    reviews: 90,
   },
   {
     id: 9,
@@ -72,6 +80,7 @@ export const featuredAds = [
     title: "T-Shirt",
     location: "Don St. Brooklyn, New York",
     imgUrl: tshirt,
+    reviews: 76,
   },
   {
     id: 10,
@@ -79,5 +88,6 @@ export const featuredAds = [
     title: "Modern Smart Watch",
     location: "Don St. Brooklyn, New York",
     imgUrl: watch,
+    reviews: 27,
   },
 ];

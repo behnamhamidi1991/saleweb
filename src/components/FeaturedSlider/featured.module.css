@@ -1,0 +1,59 @@
+.sliderContainer {
+  padding: 0 19%;
+  margin-top: 70px;
+}
+
+.mySwiper {
+  padding-bottom: 60px;
+}
+
+.sliderContainer h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.slide {
+  background-color: #fff;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 10px 20px;
+}
+
+.categoryLike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryLike span {
+  background-color: gray;
+  padding: 3px 8px;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.likeIcon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.likeIcon2 {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.titlePlace h3 {
+  color: vaR(--primary-color);
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.titlePlace p {
+  color: #717171;
+}
+
+.starReview {
+  color: #717171;
+}
