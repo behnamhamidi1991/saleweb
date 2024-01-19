@@ -1,6 +1,5 @@
 .categoryContainer {
   display: flex;
-
   width: fit-content;
   margin: auto;
   justify-content: center;
@@ -30,7 +29,8 @@
 }
 
 .boxIcon {
-  font-size: 50px;
+  font-size: 45px;
+  margin-bottom: 10px;
 }
 
 .box:hover {
