@@ -6,6 +6,19 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import styles from "./featured.module.css";
+import Image from "next/image";
+import bmw from "../../../public/featured/bmw.jpg";
+import house from "../../../public/featured/house.jpg";
+import iphone from "../../../public/featured/iphone.jpg";
+import lamp from "../../../public/featured/lamp.jpg";
+import laptop from "../../../public/featured/laptop.jpg";
+import moisture from "../../../public/featured/moisture.jpg";
+import sofa from "../../../public/featured/sofa.jpg";
+import tablet from "../../../public/featured/tablet.jpg";
+import tshirt from "../../../public/featured/tshirt.jpg";
+import watch from "../../../public/featured/watch.jpg";
+import { CiHeart } from "react-icons/ci";
+import { FaHeart } from "react-icons/fa";
 
 const FeaturedSlider = () => {
   const progressCircle = useRef(null);
@@ -18,7 +31,9 @@ const FeaturedSlider = () => {
     <>
       <Swiper
         spaceBetween={30}
+        loop={true}
         centeredSlides={true}
+        slidesPerView={4}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
@@ -28,24 +43,42 @@ const FeaturedSlider = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-        <div className="autoplay-progress" slot="container-end">
-          <svg viewBox="0 0 48 48" ref={progressCircle}>
-            <circle cx="24" cy="24" r="20"></circle>
-          </svg>
-          <span ref={progressContent}></span>
-        </div>
+        <SwiperSlide className={styles.slide}>
+          <Image src={bmw} alt="image" />
+          <div className={styles.content}>
+            <div className={styles.categoryLike}>
+              <span>Cars & Vehicles</span>
+            </div>
+            <div className={styles.titlePlace}></div>
+            <div className={styles.starReview}></div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.slide}>
+          <Image src={bmw} alt="image" />
+          <div className={styles.content}>
+            <div className={styles.categoryLike}></div>
+            <div className={styles.titlePlace}></div>
+            <div className={styles.starReview}></div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.slide}>
+          <Image src={bmw} alt="image" />
+          <div className={styles.content}>
+            <div className={styles.categoryLike}></div>
+            <div className={styles.titlePlace}></div>
+            <div className={styles.starReview}></div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.slide}>
+          <Image src={bmw} alt="image" />
+          <div className={styles.content}>
+            <div className={styles.categoryLike}></div>
+            <div className={styles.titlePlace}></div>
+            <div className={styles.starReview}></div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
