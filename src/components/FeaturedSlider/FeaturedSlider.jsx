@@ -25,8 +25,14 @@ const FeaturedSlider = () => {
         spaceBetween={15}
         loop={true}
         centeredSlides={true}
-        slidesPerView={3}
-        autoplay={{
+        slidesPerView={1}
+        breakpoints={{
+          1088: {
+            slidesPerView: 3,
+            spaceBetween: 7,
+          },
+        }}
+        play={{
           delay: 2500,
           disableOnInteraction: false,
         }}
@@ -38,7 +44,13 @@ const FeaturedSlider = () => {
       >
         {featuredAds.map((ad) => (
           <SwiperSlide key={ad.id} className={styles.slide}>
-            <Image src={ad.imgUrl} alt={ad.title} width={400} height={600} />
+            <Image
+              src={ad.imgUrl}
+              alt={ad.title}
+              width={400}
+              height={200}
+              className={styles.imageItem}
+            />
             <div className={styles.content}>
               <div className={styles.categoryLike}>
                 <span>{ad.category}</span>
