@@ -4,11 +4,91 @@
   width: 100%;
   background-size: cover;
   background-blend-mode: color;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar {
-  padding: 30px;
-  width: 800px;
+  padding: 50px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.homePageContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  margin-top: 170px;
+}
+
+.header h1 {
+  font-size: 62px;
+  font-weight: 900;
+}
+
+.header p {
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 21px;
+  color: beige;
+  margin-right: 450px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 899px;
+  background-color: rgba(198, 198, 198, 0.5);
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.searchBar input {
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.locationIcon {
+  position: absolute;
+  right: 5px;
+  font-size: 23px;
+  color: gray;
+}
+
+.searchBar select {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.searchBtn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
 }
