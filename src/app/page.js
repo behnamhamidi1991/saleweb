@@ -1,11 +1,11 @@
 import Homepage from "@/components/Homepage/Homepage";
-import Navbar from "@/components/Navbar/Navbar";
-import Image from "next/image";
+import Homepage2 from "@/components/Homepage2/Homepage2";
 
 export default function Home() {
   return (
     <div>
       <Homepage />
+      <Homepage2 />
     </div>
   );
 }

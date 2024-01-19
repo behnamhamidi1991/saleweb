@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Homepage = () => {
   return (
-    <div className={styles.homepage}>
+    <div className={styles.container}>
       <h1>This is the home page</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
