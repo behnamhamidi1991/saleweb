@@ -1,4 +1,5 @@
 import Categories from "@/components/Categories/Categories";
+import FeaturedSlider from "@/components/FeaturedSlider/FeaturedSlider";
 import Homepage from "@/components/Homepage/Homepage";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="pageContainer">
       <Homepage />
       <Categories />
+      <FeaturedSlider />
       <br />
       <br />
       <br />
