@@ -7,18 +7,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import styles from "./featured.module.css";
 import Image from "next/image";
-import bmw from "../../../public/featured/bmw.jpg";
-import house from "../../../public/featured/house.jpg";
-import iphone from "../../../public/featured/iphone.jpg";
-import lamp from "../../../public/featured/lamp.jpg";
-import laptop from "../../../public/featured/laptop.jpg";
-import moisture from "../../../public/featured/moisture.jpg";
-import sofa from "../../../public/featured/sofa.jpg";
-import tablet from "../../../public/featured/tablet.jpg";
-import tshirt from "../../../public/featured/tshirt.jpg";
-import watch from "../../../public/featured/watch.jpg";
-import { CiHeart } from "react-icons/ci";
-import { FaHeart } from "react-icons/fa";
+import { featuredAds } from "@/data";
 
 const FeaturedSlider = () => {
   const progressCircle = useRef(null);
@@ -45,40 +34,18 @@ const FeaturedSlider = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className={styles.slide}>
-          <Image src={bmw} alt="image" />
-          <div className={styles.content}>
-            <div className={styles.categoryLike}>
-              <span>Cars & Vehicles</span>
+        {featuredAds.map((ad) => (
+          <SwiperSlide key={ad.id} className={styles.slide}>
+            <Image src={ad.imgUrl} alt={ad.title} width={400} height={600} />
+            <div className={styles.content}>
+              <div className={styles.categoryLike}>
+                <span></span>
+              </div>
+              <div className={styles.titlePlace}></div>
+              <div className={styles.starReview}></div>
             </div>
-            <div className={styles.titlePlace}></div>
-            <div className={styles.starReview}></div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.slide}>
-          <Image src={bmw} alt="image" />
-          <div className={styles.content}>
-            <div className={styles.categoryLike}></div>
-            <div className={styles.titlePlace}></div>
-            <div className={styles.starReview}></div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.slide}>
-          <Image src={bmw} alt="image" />
-          <div className={styles.content}>
-            <div className={styles.categoryLike}></div>
-            <div className={styles.titlePlace}></div>
-            <div className={styles.starReview}></div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.slide}>
-          <Image src={bmw} alt="image" />
-          <div className={styles.content}>
-            <div className={styles.categoryLike}></div>
-            <div className={styles.titlePlace}></div>
-            <div className={styles.starReview}></div>
-          </div>
-        </SwiperSlide>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
