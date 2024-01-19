@@ -11,32 +11,32 @@ const Categories = () => {
   return (
     <div className={styles.categoryContainer}>
       <div className={styles.box}>
-        <MdOutlineApartment />
+        <MdOutlineApartment className={styles.boxIcon} />
         <p>Real Estate</p>
         <span>3,921</span>
       </div>
       <div className={styles.box}>
-        <PiBooksDuotone />
-        <p>Books & Magazines</p>
+        <PiBooksDuotone className={styles.boxIcon} />
+        <p>Books</p>
         <span>421</span>
       </div>
       <div className={styles.box}>
-        <GiSofa />
+        <GiSofa className={styles.boxIcon} />
         <p>Furniture</p>
         <span>1,245</span>
       </div>
       <div className={styles.box}>
-        <GiBedLamp />
+        <GiBedLamp className={styles.boxIcon} />
         <p>Electronics</p>
         <span>32,418</span>
       </div>
       <div className={styles.box}>
-        <FaCarAlt />
+        <FaCarAlt className={styles.boxIcon} />
         <p>Cars & Vehicles</p>
         <span>29,553</span>
       </div>
       <div className={styles.box}>
-        <IoShirtSharp />
+        <IoShirtSharp className={styles.boxIcon} />
         <p>Fashion</p>
         <span>14,118</span>
       </div>

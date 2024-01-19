@@ -1,20 +1,40 @@
 .categoryContainer {
   display: flex;
-  gap: 20px;
-  background-color: #fff;
+
   width: fit-content;
   margin: auto;
   justify-content: center;
+  margin-top: -80px;
 }
 
 .box {
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: all ease-in-out 0.3s;
+  background-color: #fff;
 }
 
-.box:first-child {
-  background-color: red;
+.box span {
+  background-color: #6d6d6d;
+  padding: 4px 8px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.boxIcon {
+  font-size: 50px;
+}
+
+.box:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  transform: translateY(-12px);
 }
