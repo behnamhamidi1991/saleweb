@@ -1,0 +1,20 @@
+.categoryContainer {
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  width: fit-content;
+  margin: auto;
+  justify-content: center;
+}
+
+.box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:first-child {
+  background-color: red;
+}

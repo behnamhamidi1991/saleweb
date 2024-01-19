@@ -1,22 +1,26 @@
+import Categories from "@/components/Categories/Categories";
 import Homepage from "@/components/Homepage/Homepage";
 
 export default function Home() {
   return (
     <div className="pageContainer">
       <Homepage />
-      <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+      <Categories />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

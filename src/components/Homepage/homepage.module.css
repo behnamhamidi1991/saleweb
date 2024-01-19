@@ -5,6 +5,9 @@
   background-size: cover;
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8);
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
 }
 
 .navbar {
