@@ -95,3 +95,32 @@
   font-size: 12px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1200px) {
+  .searchBar {
+    flex-direction: column;
+    background: none;
+    width: 80%;
+    margin: auto;
+  }
+
+  .searchBar input {
+    width: 100%;
+  }
+
+  .searchBar .locationContainer {
+    width: 100%;
+  }
+
+  .searchBar select {
+    width: 100%;
+  }
+
+  .header p {
+    margin-right: 1px;
+  }
+
+  .header {
+    margin-top: 70px;
+  }
+}

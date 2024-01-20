@@ -47,5 +47,18 @@
     text-align: center;
     width: 100%;
     margin-top: 40px;
+    padding: 0 18px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .categoryContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
   }
 }
