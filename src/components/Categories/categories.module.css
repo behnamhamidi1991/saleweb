@@ -38,3 +38,14 @@
   color: #fff;
   transform: translateY(-12px);
 }
+
+@media screen and (max-width: 1200px) {
+  .categoryContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+}

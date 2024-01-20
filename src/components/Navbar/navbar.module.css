@@ -34,8 +34,8 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 974px) {
+@media screen and (max-width: 1200px) {
   .navContainer {
-    width: 760px;
+    width: 860px;
   }
 }

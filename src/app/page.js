@@ -8,21 +8,6 @@ export default function Home() {
       <Homepage />
       <Categories />
       <FeaturedSlider />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
