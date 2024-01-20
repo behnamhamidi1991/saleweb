@@ -28,7 +28,7 @@ const Trend = () => {
             <div className={styles.content}>
               <div className={styles.contentHeader}>
                 <span className={styles.category}>{ad.category}</span>
-                <CiHeart />
+                <CiHeart className={styles.icon} />
               </div>
               <div>
                 <h3 className={styles.title}>{ad.title}</h3>
