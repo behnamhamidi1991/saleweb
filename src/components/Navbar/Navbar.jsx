@@ -25,6 +25,10 @@ const Navbar = () => {
           <Link href="/">About Us</Link>
         </li>
       </ul>
+
+      <div className={styles.adBtn}>
+        <button>Create An Ad</button>
+      </div>
     </div>
   );
 };
