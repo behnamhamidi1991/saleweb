@@ -96,7 +96,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 984px) {
   .searchBar {
     flex-direction: column;
     background: none;
@@ -122,5 +122,27 @@
 
   .header {
     margin-top: 70px;
+  }
+
+  .header h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .header h1 {
+    font-size: 38px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header h1 {
+    font-size: 32px;
+    padding: 0 20px;
+  }
+
+  .header p {
+    font-size: 13px;
   }
 }
