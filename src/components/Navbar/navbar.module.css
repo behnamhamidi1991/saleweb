@@ -57,6 +57,10 @@
   }
 
   .navContainer {
+    display: none;
+  }
+
+  .navContainerOpen {
     background-color: white;
     flex-direction: column;
     padding: 30px;
@@ -65,6 +69,8 @@
     position: absolute;
     right: 27%;
     z-index: 100;
+    text-align: center;
+    box-shadow: 3px 3px 25px 3px rgba(0, 0, 0, 0.3);
   }
 
   .logo {

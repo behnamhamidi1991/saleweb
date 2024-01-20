@@ -1,13 +1,18 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <div>
-      <div className={styles.navContainer}>
+      <div
+        className={!openMenu ? styles.navContainer : styles.navContainerOpen}
+      >
         <div className={styles.logo}>
           CLASSY<span>ADS</span>{" "}
         </div>
@@ -33,7 +38,15 @@ const Navbar = () => {
           <button>Create An Ad</button>
         </div>
       </div>
-      <RxHamburgerMenu className={styles.burgerIcon} />
+      <button
+        onClick={(prev) => (openMenu ? setOpenMenu(!prev) : setOpenMenu(prev))}
+      >
+        {!openMenu ? (
+          <RxHamburgerMenu className={styles.burgerIcon} />
+        ) : (
+          <RxCross1 className={styles.burgerIcon} />
+        )}
+      </button>
     </div>
   );
 };
