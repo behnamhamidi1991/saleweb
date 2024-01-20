@@ -32,7 +32,7 @@ const FeaturedSlider = () => {
             spaceBetween: 7,
           },
         }}
-        play={{
+        autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
