@@ -23,11 +23,7 @@ const PopularProducts = () => {
                   <h3 className={styles.title}>{ad.title}</h3>
                   <p className={styles.location}>{ad.location}</p>
                 </div>
-                <div className={styles.right}>
-                  <span className={styles.likeIcon}>
-                    <CiHeart />
-                  </span>
-                </div>
+                <div className={styles.right}></div>
               </div>
             </div>
           </div>

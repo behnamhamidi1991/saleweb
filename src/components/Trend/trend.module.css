@@ -36,11 +36,13 @@
   height: 200px;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
+  flex: 1;
 }
 
 .content {
   padding: 10px 30px;
   width: 100%;
+  flex: 1;
 }
 
 .contentHeader {
@@ -70,6 +72,24 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1430px) {
+  .title {
+    font-size: 15px;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .review {
+    font-size: 13px;
+  }
+
+  .content {
+    padding: 5px 15px;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .trendItemsContainer {
     grid-template-columns: 1fr;
@@ -78,6 +98,22 @@
 
   .box {
     width: 100%;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .location {
+    font-size: 15px;
+  }
+
+  .review {
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 5px 15px;
   }
 }
 
