@@ -9,7 +9,6 @@ import styles from "./featured.module.css";
 import Image from "next/image";
 import { featuredAds } from "@/data";
 import { CiHeart } from "react-icons/ci";
-import { FaHeart } from "react-icons/fa";
 
 const FeaturedSlider = () => {
   const progressCircle = useRef(null);
