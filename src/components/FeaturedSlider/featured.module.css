@@ -66,3 +66,9 @@
 .imageItem {
   width: 100%;
 }
+
+@media screen and (max-width: 864px) {
+  .sliderContainer {
+    padding: 0 10%;
+  }
+}
