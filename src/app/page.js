@@ -1,3 +1,4 @@
+import Blog from "@/components/Blog/Blog";
 import Categories from "@/components/Categories/Categories";
 import FeaturedSlider from "@/components/FeaturedSlider/FeaturedSlider";
 import Feedback from "@/components/Feedback/Feedback";
@@ -14,6 +15,7 @@ export default function Home() {
       <PopularProducts />
       <Trend />
       <Feedback />
+      <Blog />
     </div>
   );
 }

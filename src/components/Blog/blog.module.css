@@ -1,0 +1,102 @@
+.blogContainer {
+  padding: 100px 19%;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 28px;
+}
+
+.postContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 15px;
+  margin-top: 30px;
+}
+
+.contentContainer {
+  padding: 22px;
+  background-color: #fff;
+}
+
+.postTitle {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+.categoryDate {
+  display: flex;
+  gap: 7px;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+
+.category {
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.author {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.date {
+  background-color: rgb(255, 101, 101);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.postText {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.readBtn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.postBox {
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1142px) {
+  .blogContainer {
+    padding: 100px 12%;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .categoryDate {
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .postTitle {
+    font-size: 18px;
+  }
+}

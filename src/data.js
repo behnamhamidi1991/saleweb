@@ -12,6 +12,9 @@ import person1 from "../public/people/1.jpg";
 import person2 from "../public/people/2.jpg";
 import person3 from "../public/people/3.jpg";
 import person4 from "../public/people/4.jpg";
+import blog1 from "../public/blog/mobile.jpg";
+import blog2 from "../public/blog/laptop.jpg";
+import blog3 from "../public/blog/watch.jpg";
 
 export const featuredAds = [
   {
@@ -136,6 +139,7 @@ export const blogPosts = [
     author: "Jane Austin",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+    imgUrl: blog1,
   },
   {
     id: 2,
@@ -145,6 +149,7 @@ export const blogPosts = [
     author: "Tim Donner",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+    imgUrl: blog2,
   },
   {
     id: 3,
@@ -154,5 +159,6 @@ export const blogPosts = [
     author: "Martina Silva",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+    imgUrl: blog3,
   },
 ];

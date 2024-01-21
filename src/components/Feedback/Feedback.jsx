@@ -29,7 +29,6 @@ const Feedback = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className={styles.mySlider}
         >
