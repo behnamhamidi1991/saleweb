@@ -8,6 +8,10 @@ import sofa from "../public/featured/sofa.jpg";
 import tablet from "../public/featured/tablet.jpg";
 import tshirt from "../public/featured/tshirt.jpg";
 import watch from "../public/featured/watch.jpg";
+import person1 from "../public/people/1.jpg";
+import person2 from "../public/people/2.jpg";
+import person3 from "../public/people/3.jpg";
+import person4 from "../public/people/4.jpg";
 
 export const featuredAds = [
   {
@@ -89,5 +93,36 @@ export const featuredAds = [
     location: "Don St. Brooklyn, New York",
     imgUrl: watch,
     reviews: 27,
+  },
+];
+
+export const feedback = [
+  {
+    id: 1,
+    img: person1,
+    name: "Christina William",
+    feedback:
+      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+  {
+    id: 1,
+    img: person2,
+    name: "Martin Hofmann",
+    feedback:
+      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+  {
+    id: 1,
+    img: person3,
+    name: "Jay Catler",
+    feedback:
+      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+  {
+    id: 1,
+    img: person4,
+    name: "Lara Anderson",
+    feedback:
+      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
   },
 ];
