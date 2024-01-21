@@ -111,3 +111,13 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 498px) {
+  .left h2 {
+    font-size: 24px;
+  }
+
+  .right h2 {
+    font-size: 19px;
+  }
+}
