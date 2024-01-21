@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./navbar.module.css";
 import "./responsive.css";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";

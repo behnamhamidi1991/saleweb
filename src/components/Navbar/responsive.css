@@ -65,7 +65,7 @@
   }
 
   .open {
-    top: 50px;
+    top: 110px;
   }
 
   .menu {
@@ -74,5 +74,25 @@
 
   .menuIcon {
     display: block;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .navContainer {
+    width: 70%;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navContainer {
+    right: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navContainer {
+    width: 70%;
+    right: 60px;
   }
 }
