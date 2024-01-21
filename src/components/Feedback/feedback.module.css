@@ -47,3 +47,18 @@
   font-weight: 300;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 830px) {
+  .feedbackContainer {
+    padding: 100px 10%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .feedbackContainer {
+    padding: 100px 5%;
+  }
+  .feedback {
+    font-size: 14px;
+  }
+}
