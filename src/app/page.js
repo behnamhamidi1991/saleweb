@@ -1,5 +1,6 @@
 import Categories from "@/components/Categories/Categories";
 import FeaturedSlider from "@/components/FeaturedSlider/FeaturedSlider";
+import Feedback from "@/components/Feedback/Feedback";
 import Homepage from "@/components/Homepage/Homepage";
 import PopularProducts from "@/components/PopularProducts/PopularProducts";
 import Trend from "@/components/Trend/Trend";
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedSlider />
       <PopularProducts />
       <Trend />
+      <Feedback />
     </div>
   );
 }
