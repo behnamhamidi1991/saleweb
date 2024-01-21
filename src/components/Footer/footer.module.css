@@ -84,3 +84,30 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1334px) {
+  .footer {
+    background-color: #fff;
+    padding: 100px 11%;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .top {
+    flex-direction: column;
+  }
+  .middle {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .left h2 {
+    font-size: 24px;
+  }
+
+  .right h2 {
+    font-size: 24px;
+  }
+}
