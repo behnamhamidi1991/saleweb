@@ -102,27 +102,57 @@ export const feedback = [
     img: person1,
     name: "Christina William",
     feedback:
-      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
   },
   {
     id: 1,
     img: person2,
     name: "Martin Hofmann",
     feedback:
-      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
   },
   {
     id: 1,
     img: person3,
     name: "Jay Catler",
     feedback:
-      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
   },
   {
     id: 1,
     img: person4,
     name: "Lara Anderson",
     feedback:
-      "       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "Choose Your Ideal Cellphone",
+    category: "Technology",
+    date: "Jan 18, 2023",
+    author: "Jane Austin",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+  {
+    id: 2,
+    title: "Surface is Real Magic",
+    category: "Technology",
+    date: "Jan 29, 2023",
+    author: "Tim Donner",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
+  },
+  {
+    id: 3,
+    title: "Smart Watch Helps",
+    category: "Technology",
+    date: "Feb 08, 2023",
+    author: "Martina Silva",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel iure? Quae voluptates vel molestias quam voluptate atque nemo veniam! Doloremque quidem velit ducimus praesentium modi dolorem ad doloribus mollitia quaerat temporibus sed neque ex dicta libero, quas non culpa.",
   },
 ];
