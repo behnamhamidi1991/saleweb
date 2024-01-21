@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./navbar.module.css";
+import "./responsive.css";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
@@ -10,13 +11,11 @@ const Navbar = () => {
 
   return (
     <div>
-      <div
-        className={!openMenu ? styles.navContainer : styles.navContainerOpen}
-      >
-        <div className={styles.logo}>
+      <div className={!openMenu ? "navContainer" : "navContainer open"}>
+        <div className="logo">
           CLASSY<span>ADS</span>{" "}
         </div>
-        <ul className={styles.menu}>
+        <ul className="menu">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -34,17 +33,18 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className={styles.adBtn}>
+        <div className="adBtn">
           <button>Create An Ad</button>
         </div>
       </div>
       <button
         onClick={(prev) => (openMenu ? setOpenMenu(!prev) : setOpenMenu(prev))}
       >
+        {" "}
         {!openMenu ? (
-          <RxHamburgerMenu className={styles.burgerIcon} />
+          <RxHamburgerMenu className="menuIcon" />
         ) : (
-          <RxCross1 className={styles.burgerIcon} />
+          <RxCross1 className="menuIcon" />
         )}
       </button>
     </div>
